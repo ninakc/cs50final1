@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>CambridgeZipCodes.kml</name>
+	<Style id="sn_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff7f00ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>4c7f00ff</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff7f00ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>4c7f00ff</color>
+		</PolyStyle>
+	</Style>
+	<Folder>
+		<name>Austin Zip Codes</name>
+		<open>1</open>
+		<Placemark>
+			<name>Massachusetts</name>
+			<styleUrl>#msn_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+<coordinates>-71.860513,41.320248,0.0 -71.862772,41.309791,0.0 -71.785957,41.325739,0.0 -71.7292965762004,41.3332840027138,0.0 -71.701631,41.336968,0.0 -71.624505,41.36087,0.0 -71.555381,41.373316,0.0 -71.483295,41.371722,0.0 -71.455371,41.407962,0.0 -71.428652,41.454158,0.0 -71.4172127914837,41.4560313127744,0.0 -71.389284,41.460605,0.0 -71.351096,41.450802,0.0 -71.312694,41.451402,0.0 -71.285639,41.487805,0.0 -71.245992,41.481302,0.0 -71.2398044238189,41.4785720701705,0.0 -71.2126727591074,41.4666017059031,0.0 -71.19302,41.457931,0.0 -71.140224,41.485855,0.0 -71.12057,41.497448,0.0 -71.137492,41.602561,0.0 -71.132888,41.660102,0.0 -71.19564,41.67509,0.0 -71.2013271875249,41.6817683282027,0.0 -71.2086005328951,41.6903092436027,0.0 -71.261392,41.752301,0.0 -71.3172640975601,41.7771946633724,0.0 -71.329396,41.7826,0.0 -71.339597,41.832,0.0 -71.339298,41.893399,0.0 -71.3817,41.893199,0.0 -71.381461,41.952141,0.0 -71.3814313468931,41.9850841191295,0.0 -71.381401,42.018798,0.0 -71.4580809945561,42.0168788251287,0.0 -71.4982240131247,42.0158741110185,0.0 -71.559439,42.014342,0.0 -71.591096527631,42.0135133435572,0.0 -71.6062034411341,42.0131179102388,0.0 -71.799242,42.008065,0.0 -71.792767,41.807001,0.0 -71.789678,41.724734,0.0 -71.789677581832,41.7245680002953,0.0 -71.789464590839,41.6400171907069,0.0 -71.789356,41.59691,0.0 -71.7893586727423,41.5968521603427,0.0 -71.7917190617472,41.545772004335,0.0 -71.797683,41.416709,0.0 -71.839649,41.412119,0.0 -71.835951,41.353935,0.0 -71.860513,41.320248,0.0</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>
