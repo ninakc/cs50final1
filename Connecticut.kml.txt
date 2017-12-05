@@ -46,7 +46,7 @@
 		<name>Austin Zip Codes</name>
 		<open>1</open>
 		<Placemark>
-			<name>Massachusetts</name>
+			<name>Connecticut</name>
 			<styleUrl>#msn_ylw-pushpin</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
